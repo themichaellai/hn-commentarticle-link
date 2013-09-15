@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "HN One-Click Link + Comments",
+  "description": "Opens comments and links at the same time on Hacker News",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://news.ycombinator.com/"],
+      "css": ["hn_oc.css"],
+      "js": ["hn_oc.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
