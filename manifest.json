@@ -8,7 +8,8 @@
 
   "content_scripts": [
     {
-      "matches": ["*://news.ycombinator.com/"],
+      "matches": ["*://news.ycombinator.com/*"],
+      "exclude_matches": ["*://news.ycombinator.com/item*"],
       "css": ["hn_oc.css"],
       "js": ["hn_oc.js"],
       "run_at": "document_end"
