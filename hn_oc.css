@@ -1,3 +1,7 @@
-.comment-article-link:before {
+.subtext a.comment-main-link:before {
   content: "  ";
+}
+.subtext a.comment-main-link:hover {
+  text-decoration: none;
+  cursor: pointer;
 }

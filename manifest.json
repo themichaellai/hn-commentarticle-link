@@ -2,6 +2,7 @@
   "manifest_version": 2,
 
   "name": "HN One-Click Link + Comments",
+  "author": "Michael Lai",
   "description": "Opens comments and links at the same time on Hacker News",
   "version": "1.0",
 
