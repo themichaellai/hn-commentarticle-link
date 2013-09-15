@@ -14,7 +14,7 @@ for (i = 1; i < link_rows.length - 3; i++) {
   else if (i % 3 == 2) {
     var comment_link = link_rows[i].querySelectorAll('a')[1];
     // there is no comment link if it is a job listing
-    if (comment_link && main_link != comment_link) {
+    if (comment_link && main_link != comment_link.getAttribute('href')) {
       comment_link = comment_link.getAttribute('href');
       var link = document.createElement('a');
       link.innerHTML = '[l+c]';
